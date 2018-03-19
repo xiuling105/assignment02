@@ -1,0 +1,36 @@
+body {
+	background-color:antiquewhite;
+}
+img.slide {
+	max-width: 300px;
+}
+h1 {
+	text-align: center;
+	font-family: Comic Sans MS ;
+	color:lightcoral;
+	font-weight: bold;
+	font-size: 3em;
+	
+}
+p.problem {
+	font-family: cursive;
+	color: cornflowerblue;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+#container {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	border: 1em double white;
+	border-radius: 1em;
+	padding-left: 1.5em;
+		
+}
+img {
+	display: block;
+	margin-left: 8em;
+	padding-bottom: 3em;
+}
+
