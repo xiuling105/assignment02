@@ -87,8 +87,8 @@ for (let i = 0; i < images.length; i++) {
 	const options = document.createElement('p');
 	options.classList.add("option");
 	options.textContent = questions[i].option;
-	imgContainer.appendChild(options);
-		
+	
+    imgContainer.appendChild(options);
 	container.appendChild(imgContainer);
 	
 }
