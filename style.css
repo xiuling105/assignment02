@@ -13,9 +13,9 @@ h1 {
 	
 }
 p.problem {
-	font-family: cursive;
+	font-family:Ubuntu Condensed;
 	color: cornflowerblue;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	font-weight: bold;
     
 }
@@ -32,6 +32,13 @@ p.problem {
 img {
 	display: block;
 	margin-left: 8em;
-	padding-bottom: 3em;
+	padding-bottom: 2em;
+    width: 17em;
+    
+}
+button{margin-right: 2em;
+       background-color: cadetblue;
+       width: 25%; 
+    margin-bottom: 3em;
 }
 

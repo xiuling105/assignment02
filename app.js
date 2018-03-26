@@ -30,37 +30,37 @@ const questions = [
 	},
 	{
 		problem: "4.Have you ever dropped your phone onto your face while you were problem: looking at it in bed?",
-	    option:{A:'',    B:'',    C:''},
+	    option:{A:'Yes',    B:'No',    C:'I don not know'},
 	    answer:''
 	},
 	{
 		problem: "5. Who was the first president of the United States?",
-	    option:{A:'',    B:'',    C:''},
+	    option:{A:'Abraham Lincoln',    B:'Ben Franklin',    C:'George Washington'},
 	    answer:''
 	},
 	{
 		problem: "6. What is the square root of 4?",
-	    option:{A:'',    B:'',    C:''},
+	    option:{A:'1',    B:'2',    C:'4'},
 	    answer:''
 	},
 	{
 		problem: "7. The ________ of this injury was prevent him from competing any further.",
-	    option:{A:'',    B:'',    C:''},
+	    option:{A:'Effect',    B:'Affect',    C:'None'},
 	    answer:''
 	},
 	{
 		problem: "8. Which planet is the smallest in our Solar System?",
-	    option:{A:'',    B:'',    C:''},
+	    option:{A:'Neptune',    B:'Pluto ',    C:'Mercury'},
 	    answer:''
 	},
 	{
 		problem: "9. Is there a color black?",
-	    option:{A:'',    B:'',    C:''},
+	    option:{A:'True',    B:'False'},
 	    answer:''
 	},
 	{
 		problem: "10. As of 2017, the largest pyramid in existence can be found in Egypt.",
-	    option:{A:'',    B:'',    C:''},
+	    option:{A:'True',    B:'False'},
 	    answer:''
 	}
 ];
@@ -87,22 +87,20 @@ for (let i = 0; i < images.length; i++) {
 	img.classList.add("slide");
 	imgContainer.appendChild(img);
     
-	console.log(questions[i].option);
     for (let key in questions[i].option) {
         let option = questions[i].option[key];
 	   const options = document.createElement('button');
 	   options.classList.add("option");
 	   options.textContent = option;
         options.onclick = function() {
-            console.log(key);
-            console.log(option);
-            console.log(this);
+//            if (option == true){
+//            problems..textContent.style.display ="block";
+//            } else { option.textContent.style.display ="block";}
+//            
         };
         imgContainer.appendChild(options);
     }
 	
-    
-
 	container.appendChild(imgContainer);
 	
 }
