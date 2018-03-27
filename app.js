@@ -30,7 +30,7 @@ const questions = [
 	},
 	{
 		problem: "4.Have you ever dropped your phone onto your face while you were problem: looking at it in bed?",
-	    option:{A:'Yes',    B:'No',    C:'I don not know'},
+	    option:{A:'Yes',    B:'No',    C:'I do not know'},
 	    answer:''
 	},
 	{
@@ -71,36 +71,36 @@ const questions = [
 //Show the questions and images
 
 const container = document.getElementById("container");
+
 for (let i = 0; i < images.length; i++) {
-
-    const imgContainer = document.createElement('div');
-    imgContainer.classList.add("question");
-    imgContainer.id = i;
-    if (i==0){
-        imgContainer.style.display="block";
-    }
-
-    const problems = document.createElement('p');
-    problems.classList.add("problem");
-    problems.textContent = questions[i].problem;
-    imgContainer.appendChild(problems);
-
-    const img = new Image();
-    img.src = images[i];
-    img.id = "img" + i;
-    img.classList.add("slide");
-    imgContainer.appendChild(img);
-
+	
+	const imgContainer = document.createElement('div');
+	
+	const problems = document.createElement('p');
+	problems.classList.add("problem");
+	problems.textContent = questions[i].problem;
+	imgContainer.appendChild(problems);
+		
+	const img = new Image();
+	img.src = images[i];
+	img.id = "img"+i;
+	img.classList.add("slide");
+	imgContainer.appendChild(img);
+    
     for (let key in questions[i].option) {
         let option = questions[i].option[key];
-        const options = document.createElement('button');
-        options.classList.add("option");
-        options.textContent = option;
-        options.onclick = function () {
-            imgContainer.style.display = "none";
-            document.getElementById(i+1).style.display="block";;
-        }
+	   const options = document.createElement('button');
+	   options.classList.add("option");
+	   options.textContent = option;
+        options.onclick = function() {
+//            if (option == true){
+//            problems..textContent.style.display ="block";
+//            } else { option.textContent.style.display ="block";}
+//            
+        };
         imgContainer.appendChild(options);
     }
-    container.appendChild(imgContainer);
+	
+	container.appendChild(imgContainer);
+	
 }

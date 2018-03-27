@@ -1,5 +1,7 @@
 body {
 	background-color:antiquewhite;
+    text-align: center;
+    margin-top: 300px;
 }
 img.slide {
 	max-width: 300px;
@@ -20,26 +22,27 @@ p.problem {
     
 }
 #container {
+
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 75%;
-	border: 1em double white;
-	border-radius: 1em;
 	padding-left: 1.5em;
 		
 }
 img {
+    margin: 0 auto;
+    padding: 20px;
 	display: block;
-	margin-left: 8em;
-	padding-bottom: 2em;
-    width: 17em;
+    max-width: 100%;
+    max-height: 100%;
     
 }
 button{margin-right: 2em;
        background-color: cadetblue;
-       width: 25%; 
-    margin-bottom: 3em;
+       width:150px;
+       height: 30px;
+       margin-bottom: 3em;
 }
 
 .question{
