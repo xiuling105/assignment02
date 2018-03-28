@@ -1,8 +1,8 @@
 var score = 0;
 const result = [
-	"You score is higher than 75%. Congratulations!! You are smart!",
-	"You score is between 40 to 65%. You are normal person ;) ",
-	"You score is lower than 35%. You may have not noticed by you are pretty much dumb. Haha!"
+	"Your score is higher than 75%. Congratulations!! You are smart!",
+	"Your score is between 40% to 65%. You are normal person ;) ",
+	"Your score is lower than 35%. You may have not noticed by you are pretty much dumb. Haha!"
 ]
 
 const questions = [
