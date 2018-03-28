@@ -18,7 +18,7 @@ const questions = [
 		answer: "2"
 	},
 	{
-		problem: "2. what is the car's parking spot number?",
+		problem: "2. What is the car's parking spot number?",
 		images: "images/q-2.jpg",
 		option: [
 			"A: 68",
@@ -38,7 +38,7 @@ const questions = [
 		answer: "1"
 	},
 	{
-		problem: "4. Soluve the math problem",
+		problem: "4. Solve the math problem",
 		images: "images/q-4.jpg",
 		option: [
 			"A: 13",
@@ -68,7 +68,7 @@ const questions = [
 		answer: "1"
 	},
 	{
-		problem: "7. which is the tallest building in the world?.",
+		problem: "7. Which is the tallest building in the world?.",
 		images: "images/q-7.jpg",
 		option: [
 			"A: Shanghai Tower ",
@@ -88,7 +88,7 @@ const questions = [
 		answer: "0"
 	},
 	{
-		problem: "9. can you solve this?",
+		problem: "9. Let's see if you can you solve this?",
 		images: "images/q-9.jpg",
 		option: [
 			"A: 14",
