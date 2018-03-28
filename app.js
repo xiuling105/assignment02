@@ -1,8 +1,8 @@
 var score = 0;
 const result = [
-	"You score is higher than 75. Congratulation! You are smart!",
-	"You score is between 40 to 65. You are normal person ;) ",
-	"You score is lower than 35. You are dumb. Haha!"
+	"You score is higher than 75%. Congratulations!! You are smart!",
+	"You score is between 40 to 65%. You are normal person ;) ",
+	"You score is lower than 35%. You may have not noticed by you are pretty much dumb. Haha!"
 ]
 
 const questions = [
@@ -68,7 +68,7 @@ const questions = [
 		answer: "1"
 	},
 	{
-		problem: "7. Which is the tallest building in the world?.",
+		problem: "7. Which is the tallest building in the world?",
 		images: "images/q-7.jpg",
 		option: [
 			"A: Shanghai Tower ",
