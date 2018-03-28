@@ -1,10 +1,5 @@
 body {
 	background-color:antiquewhite;
-    text-align: center;
-    margin-top: 300px;
-}
-img.slide {
-	max-width: 300px;
 }
 h1 {
 	text-align: center;
@@ -14,38 +9,86 @@ h1 {
 	font-size: 3em;
 	
 }
-p.problem {
-	font-family:Ubuntu Condensed;
-	color: cornflowerblue;
-	font-size: 1.3em;
-	font-weight: bold;
-    
-}
 #container {
-
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 75%;
-	padding-left: 1.5em;
+	border: 1em double white;
+	border-radius: 1em;
+	padding-left: 4em;
 		
 }
-img {
-    margin: 0 auto;
-    padding: 20px;
-	display: block;
-    max-width: 100%;
-    max-height: 100%;
+
+p.problem {
+	font-family:Ubuntu Condensed;
+	color: cornflowerblue;
+	font-size: 2em;
+	font-weight: bold;
+	padding-bottom: 1em;
+	
+	
+/*	margin-top: 0em;*/
     
 }
-button{margin-right: 2em;
-       background-color: cadetblue;
-       width:150px;
-       height: 30px;
-       margin-bottom: 3em;
+
+.picture{
+	display: block;
+	width: 600px;
+	margin-left: 8em;
+	padding-bottom: 3em;
+    
 }
 
+.option{
+	  margin-right: 2em;
+       background-color: lavender;
+       width: 15em; 
+	   padding-top: 0.3em;
+	   padding-bottom: 0.3em;
+	   margin-top: 1em;
+       margin-bottom: 3em;
+	   text-align: center;
+	   font-size: 1em;
+	   border-radius: 0.5em;
+	  
+}
+
+.option:focus {
+	background-color: salmon;
+	color:white;
+}
+
+.next { 
+	    display: block;
+	    background-color: silver;
+        width: 20em; 
+	    padding-top: 0.3em;
+	    padding-bottom: 0.3em;
+        margin-bottom: 3em;
+	 	text-align: center;
+	    font-size: 1em;
+	    border-radius: 0.5em;
+	    font-weight: bold; 
+	    
+}
+
+
+
+.next:hover{
+	background-color:bisque;
+	
+}
 .question{
     display: none;
     
 }
+#answer {
+	font-size: 3em;
+	padding: 1em;
+	color:darkblue;
+	font-weight: bold;
+	font-family: monospace;
+}
+
+
