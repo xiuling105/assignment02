@@ -1,9 +1,10 @@
 var score = 0;
 const result = [
-	"You score is higher than 75. Congratulation! You are smart. Haha!",
-	"You score is between 40 to 65. You are normal. Haha!",
+	"You score is higher than 75. Congratulation! You are smart!",
+	"You score is between 40 to 65. You are normal person.",
 	"You score is lower than 35. You are dumb. Haha!"
 ]
+
 const questions = [
 
 	{
@@ -108,7 +109,6 @@ const questions = [
 	}
 ];
 
-
 //  Display whole container
 
 const container = document.getElementById('container');
@@ -179,25 +179,35 @@ for (let i = 0; i < questions.length; i++) {
 	
 	const solution = document.createElement('p');
 	const answer = document.getElementById("answer");
-	      
+	var img = new Image();
+	img.classList.add('img');
+	
 	      solution.onclick = function () {
 		  slide.style.display = "none";
 		  document.getElementById('answer').style.display = "block";
-
+           
 			  if (score > 80 && score <120 ) {
 				 
 				  answer.textContent = result[0];
-				  
+				
+				  img.src = "images/clap.png";
+				  document.body.appendChild(img);
 				  }
 				  else if (score > 40 && score < 80) {
 				  answer.textContent = result[1];
+					
+				  img.src = "images/thumbs.png";
+				  document.body.appendChild(img);
 			  }
 			  else  {
 				   answer.textContent = result[2];
+				
+				  img.src = "images/dumb.jpg";
+				  document.body.appendChild(img);
 			  }
 		  
 		  }
-		  	
+		  
 	
 		  slide.appendChild(solution);
 	      
