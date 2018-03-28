@@ -1,7 +1,7 @@
 var score = 0;
 const result = [
 	"You score is higher than 75. Congratulation! You are smart!",
-	"You score is between 40 to 65. You are normal person.",
+	"You score is between 40 to 65. You are normal person ;) ",
 	"You score is lower than 35. You are dumb. Haha!"
 ]
 
@@ -88,7 +88,7 @@ const questions = [
 		answer: "0"
 	},
 	{
-		problem: "9. Let's see if you can you solve this?",
+		problem: "9. Let's see if you can you solve this!",
 		images: "images/q-9.jpg",
 		option: [
 			"A: 14",
