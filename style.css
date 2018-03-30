@@ -21,9 +21,9 @@ h1 {
 }
 
 p.problem {
-	font-family:Ubuntu Condensed;
+	font-family:Condensed;
 	color: cornflowerblue;
-	font-size: 2em;
+	font-size: 220%;
 	font-weight: bold;
 	padding-bottom: 1em;
 	
@@ -31,8 +31,9 @@ p.problem {
 
 .picture{
 	display: block;
-	width: 600px;
-	margin-left: 8em;
+	width: 50%;
+	height: auto;
+    margin-right: 8em;
 	padding-bottom: 3em;
     
 }

@@ -159,7 +159,7 @@ for (let i = 0; i < questions.length; i++) {
 		
 //	Display next button
 	
-   const next = document.createElement('button');
+   var next = document.createElement('button');
 	     next.classList.add('next');
 	     next.textContent =('next');
 	
@@ -169,7 +169,7 @@ for (let i = 0; i < questions.length; i++) {
 	               document.getElementById(i+1).style.display="block";
      		}   
 		    else {
-				
+				 
 				  solution.onclick ();
 			}
     }
